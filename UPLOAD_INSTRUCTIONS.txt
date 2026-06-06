@@ -1,0 +1,14 @@
+Upload the contents of this folder to the ROOT of your GitHub repository:
+
+- README.md
+- _config.yml
+- assets/ (entire folder)
+
+Delete or rename index.html, because GitHub Pages may display index.html instead of README.md.
+
+Then run:
+git add README.md _config.yml assets
+git commit -m "add complete project report"
+git push
+
+Wait a few minutes and refresh your GitHub Pages URL.
