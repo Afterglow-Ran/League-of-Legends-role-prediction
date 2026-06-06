@@ -56,7 +56,7 @@ Here is the head of the cleaned DataFrame:
 The CSPM distribution is bimodal. The large group near one CSPM is mostly composed of support players, while the broader group around seven to nine CSPM represents farming roles. This indicates that farming rate is likely to be useful for distinguishing player positions.
 
 <iframe
-  src="graph/cspm_distribution.html"
+  src="./graph/cspm_distribution.html"
   width="100%"
   height="550"
   frameborder="0"
@@ -67,7 +67,7 @@ The CSPM distribution is bimodal. The large group near one CSPM is mostly compos
 CSPM differs substantially by position. Bot, mid, and top players generally have high CSPM, jungle players have a lower farming rate because they obtain resources from jungle monsters, and support players have by far the lowest CSPM. The overlap among top, mid, and bot also suggests that CSPM alone will not perfectly distinguish all five positions.
 
 <iframe
-  src="graph/cspm_by_position.html"
+  src="./graph/cspm_by_position.html"
   width="100%"
   height="550"
   frameborder="0"
@@ -117,7 +117,7 @@ For the second test:
 I fail to reject the null hypothesis, so there is not enough evidence that `xpat15` missingness depends on player position. Overall, the missingness of `xpat15` is more consistent with **MAR** than NMAR because it is associated with an observed variable, league.
 
 <iframe
-  src="graph/xpat15_missingness_by_league.html"
+  src="./graph/xpat15_missingness_by_league.html"
   width="100%"
   height="600"
   frameborder="0"
@@ -137,7 +137,7 @@ I tested whether mid laners have a higher average vision score per minute than t
 I reject the null hypothesis. The data provide strong evidence that professional mid players have a higher average VSPM than professional top players. A one-sided difference in means is appropriate because the alternative hypothesis specifically predicts a higher mean for mid players.
 
 <iframe
-  src="graph/vspm_hypothesis_test.html"
+  src="./graph/vspm_hypothesis_test.html"
   width="100%"
   height="550"
   frameborder="0"
